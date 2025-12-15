@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rendrd. | Next-Gen Graphics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-custom" href="#">rendrd.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link nav-link-custom" href="#">home</a>
+                    <a class="nav-link nav-link-custom" href="about.html">about</a>
+                    <a class="nav-link nav-link-custom" href="cards.html">technologies</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="techCarousel" class="carousel slide carousel-custom" data-bs-ride="carousel">
+        <div class="carousel-indicators carousel-indicators-custom">
+            <button type="button" data-bs-target="#techCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#techCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#techCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <!-- VULKAN -->
+            <div class="carousel-item active">
+                <img src="https://www.lunarg.com/wp-content/uploads/2024/10/Vulkan-SDK.jpg" class="d-block w-100" alt="Vulkan Graphics">
+                <div class="carousel-caption carousel-caption-custom">
+                    <h1 class="carousel-title">VULKAN</h1>
+                    <p class="carousel-description">Unlock the full power and potential of today's GPUs with low-overhead, cross-platform graphics and compute API.</p>
+                    <a href="cards.html" class="carousel-link">Explore Vulkan</a>
+                </div>
+            </div>
+            
+            <!-- OPENGL -->
+            <div class="carousel-item">
+                <img src="https://i.ytimg.com/vi/W3gAzLwfIP0/maxresdefault.jpg" class="d-block w-100" alt="OpenGL Graphics">
+                <div class="carousel-caption carousel-caption-custom">
+                    <h1 class="carousel-title">OPENGL</h1>
+                    <p class="carousel-description">The industry's foundation for high-performance graphics across all platforms with decades of proven reliability.</p>
+                    <a href="cards.html" class="carousel-link">Discover OpenGL</a>
+                </div>
+            </div>
+            
+            <!-- DIRECTX -->
+            <div class="carousel-item">
+                <img src="https://cdn.mos.cms.futurecdn.net/jPTT5oJovaxANoe6nw237H.jpg" class="d-block w-100" alt="DirectX Graphics">
+                <div class="carousel-caption carousel-caption-custom">
+                    <h1 class="carousel-title">DIRECTX</h1>
+                    <p class="carousel-description">More than just code — it's art. Microsoft's collection of APIs for handling multimedia and game programming.</p>
+                    <a href="cards.html" class="carousel-link">Experience DirectX</a>
+                </div>
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev carousel-control-custom" type="button" data-bs-target="#techCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next carousel-control-custom" type="button" data-bs-target="#techCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Content -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Why Graphics APIs?</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3 class="feature-title">High Performance</h3>
+                        <p class="feature-text">Leverage the latest graphics APIs for maximum performance and efficiency in your applications.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔧</div>
+                        <h3 class="feature-title">Cross-Platform</h3>
+                        <p class="feature-text">Develop once, deploy everywhere with support for Windows, Linux, macOS, and mobile platforms.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎮</div>
+                        <h3 class="feature-title">Modern Features</h3>
+                        <p class="feature-text">Access cutting-edge graphics features including ray tracing, AI acceleration, and real-time rendering.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+        <div class="container">
+            <p class="footer-text">© 2024 rendrd. | Next-Generation Graphics Solutions</p>
+        </div>
+    </footer>
+
+</body>
+</html>
